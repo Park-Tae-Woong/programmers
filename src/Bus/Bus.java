@@ -69,10 +69,10 @@ public class Bus {
     }
 
     public static void main(String[] args) {
-        Bus bus = new Bus(1000);
+        Bus bus = new Bus(1000); //버스 번호 입력 필요
         bus.Race();
-        bus.OriginSpeed(10);
+        bus.OriginSpeed(10); //운행 속도 입력 필요
         bus.RidePassenger();
-        bus.ChangeSpeed(1);
+        bus.ChangeSpeed(1); //바꿀 속도 입력 필요
     }
 }
